@@ -1,0 +1,223 @@
+body {
+  font-family: pt-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000; 
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #062C30;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+/*Primary Navigation*/
+
+#navbar{
+  background-color: #062C30;
+}
+
+#nav-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li{
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+  background-color: #808080;
+}
+
+#resume{
+  font-size: medium;
+}
+
+/*Style for Welcome Section */
+#welcome-section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+h1 {
+  margin-top: 20vh;
+  color: #000;
+  align-items: center;
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 6px;
+  line-height: 58px;
+  text-transform: uppercase;
+  padding-top: 100px
+}
+
+h2 {
+  color: #000;
+  font-family: Lato, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 6px;
+  line-height: 58px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  color: #000;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 58px;
+  padding-bottom: 500px;
+  text-align: center;
+}
+
+/* STYLE FOR PROJECT SECTION */
+h4{
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+
+.grid img{
+  width: 250px;
+  height: 400px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 5vh;
+}
+
+/*CONTACT ME SECTION*/
+h5{
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+
+#contact{
+  background-color: #fff;
+  width: 100%;
+  height: 80vh;
+  padding-top: 300px;
+}
+
+p {
+  font-family: Lato, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 6px;
+  line-height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+
+.a-link{
+  color: #000;
+  font-style: italic;
+  font-weight: 00;
+  text-align: center;
+  font-size: 45px;
+}
+
+.a-link:hover{
+  background-color:white;
+  color:gray;
+}
+
+#contact-p{
+  color: #000;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+}
+
+/*button hover from blog*/
+.btn {
+  background: #222;
+  height: 50px;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.btn .circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.btn:hover {
+  background: transparent;
+}
+
+.btn:hover .circle {
+  height: 50px;
+  width: 150px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
