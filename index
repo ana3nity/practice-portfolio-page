@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <nav id="navbar">
+        <ul id="nav-list">
+          <li>
+            <a class="btn"
+            href="#welcome-section"><span class="noselect">About Me</span><div class="circle"></div></a>
+          </li>
+          <li>
+            <a class="btn"
+            href="#projects"><span class="noselect">My Work</span><div class="circle"></div></a>
+          </li>
+          <li>
+            <a class="btn"
+            href="#contact"><span class="noselect">Contact</span><div class="circle"></div></a>
+          </li>
+          <li>
+            <a class="Resume"
+            href="#Resume"><span class="noselect">Resume</span><div class="circle"></div></a>
+          </li>
+        </ul>
+      </nav>
+      </header>
+
+      <!-----WELCOME SECTION---->
+      <section id="welcome-section">
+        <h1>Ana-Louise Trinidad</h1>
+        <h2>UX Designer</h2>
+        <h3>I do visual storytelling.</h3>
+      </section>
+
+      <!----PROJECT SECTION-->
+      <section id="projects">
+        <h4>My Projects</h4>
+        <div class="grid">
+          <div class="row">
+        <img src="./assets/images/katie-azi-P4RJUCvxmko-unsplash.jpg" alt="sample image 1">
+        <img src="assets/images/premium_photo-1669842162407-abfc5f9e981e.webp" alt="sample image 2">
+        <img src="assets/images/photo-1651154104956-491b41e3eba1.webp" alt="sample image 3">
+      </div>
+        <div class="row">
+        <img src="assets/images/photo-1669150741320-465c5688f7f6.webp" alt="sample image 4">
+        <img src="assets/images/photo-1669351525742-244d8a48fddf.webp" alt="sample image 5">
+        <img src="assets/images/photo-1668799235190-818acc208995.webp" alt="sample image 6">
+        </div>  
+      </div>
+      </section>
+
+      <!--CONTACT SECTION-->
+      <section id="contact">
+
+        <div id="contact-header">
+          <h5>CONTACT ME</h5>
+        </div>
+        <div id="contact-links">
+          <p><a class="a-link" href="mailto:anamtrinidad@outlook.com"> <i class="fa-solid fa-envelope"></i></a></p>
+          <p><a class="a-link" href="https://www.linkedin.com/in/ana-louise-trinidad/"><i class="fa-brands fa-linkedin"></i></a></p>
+          <p><a class="a-link" href="https://github.com/altrndd"><i class="fa-brands fa-github"></i></a></p>
+         </div>
+       </section>
+</body>
+</html>
